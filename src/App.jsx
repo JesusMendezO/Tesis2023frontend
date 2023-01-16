@@ -14,6 +14,11 @@ import Proyecto from './paginas/Proyecto'
 import EditarProyecto from './paginas/EditarProyecto'
 import NuevoColaborador from './paginas/NuevoColaborador'
 import Inicio from './paginas/Inicio'
+import SobreNosotros from './paginas/SobreNosotros'
+import Galeria from './paginas/Galerias'
+import Noticias from './paginas/Noticias'
+import Recorrido from './paginas/Recorridos'
+import GaleriaImg from './paginas/GaleriaImg'
 import {AuthProvider} from './context/AuthProvider'
 import {ProyectosProvider} from './context/ProyectosProvider'
 
@@ -29,14 +34,21 @@ function App() {
           <Routes>
               <Route path="/" element={<AuthLayout />}>
                   <Route index element={<Login />} />
+                  <Route path="/login" element={<Login/>} />
                   <Route path="registrar" element={<Registrar />} />
                   <Route path="olvide-password" element={<OlvidePassword />} />
                   <Route path="olvide-password/:token" element={<NuevoPassword />} />
                   <Route path="confirmar/:id" element={<ConfirmarCuenta />} />
-              
+                 
               </Route>
+
               <Route path="/inicio" element={<Inicio />} />
+              <Route path="/SobreNosotros" element={<SobreNosotros />} />
               <Route path="/login" element={<Login/>} />
+              <Route path="/noticias" element={<Noticias/>} />
+              <Route path="/galerias" element={<Galeria/>} />
+              <Route path="/recorridos" element={<Recorrido/>} />
+              <Route path="/galeriaimg" element={<GaleriaImg/>} />
               <Route path="/proyectos" element={<RutaProtegida />}>
               
                   <Route index element={<Proyectos />} />

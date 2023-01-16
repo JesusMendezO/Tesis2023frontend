@@ -26,23 +26,23 @@ const Header = () => {
                 
                
                   <Link
-                    to="/Inicio"
+                    to="/inicio"
                     className='font-bold uppercase text-sky-600'
                 >Inicio</Link>
  <Link
-                    to="/proyectos"
+                    to="/SobreNosotros"
                     className='font-bold uppercase text-sky-600'
                 >Sobbre Nosotros</Link>
                 <Link
-                    to="/proyectos"
+                    to="/noticias"
                     className='font-bold uppercase text-sky-600'
                 >Novedades</Link>
                 <Link
-                    to="/proyectos"
+                    to="/recorridos"
                     className='font-bold uppercase text-sky-600'
                 >Recorridos</Link>
                  <Link
-                    to="/proyectos"
+                    to="/galerias"
                     className='font-bold uppercase text-sky-600'
                 >Galeria</Link>
                  
@@ -57,7 +57,7 @@ const Header = () => {
                     className='text-white text-sm bg-sky-600 p-3 rounded-md uppercase font-bold'
                     onClick={handleCerrarSesion}
                 >Cerrar Sesión</button>: <Link
-                to="/proyectos"
+                to="/login"
                 className='font-bold uppercase text-sky-600'
             >Iniciar Sesion</Link>}
     </div>
