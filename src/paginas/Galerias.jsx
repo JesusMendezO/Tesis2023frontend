@@ -55,7 +55,7 @@ const Galeria = () => {
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96">
+  <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40" >
     <div className='inline-block align-middle text-amber-600'>
     <Link
                     to="/inicio"
@@ -68,13 +68,7 @@ const Galeria = () => {
 </div>
        
 
-  <h1 class="text-xl text-left transform rotate-180 text-amber-500 mt-2">Galeria</h1>
-  <div className='mt-40'>
-  <Link
-                    to="/galeriaimg"
-                    className='font-bold uppercase text-sky-600'
-                >basilica</Link>
-  </div>
+ 
 <footer> <Footer /></footer></div>
     
     </>

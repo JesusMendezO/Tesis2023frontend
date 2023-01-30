@@ -26,7 +26,7 @@ const headers = { 'Content-Type': 'application/json' };
 
 
 
-const Recorridos = () => {
+const RecorridoTeatro = () => {
   const { proyectos, alerta } = useProyectos()
   const { msg } = alerta
   const [error, setError] = useState(null);
@@ -54,50 +54,13 @@ const Recorridos = () => {
   return (
 
     <>
-    <div>
+    <div className='bg-amber-600'>
        <div> <header id="main-header"><Header /></header></div>
-   
-       <div class="grid grid-cols-2  mt-28">
+       <h1 className='text-sky-600 uppercase text-4xl text-center mt-20 '>Teatro Baralat</h1>
+       <div class="grid grid-cols-2  mt-4">
+          
   
-  <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4 mb-4 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
-    <Link
-                    to="/recorridobasilica"
-                    className='font-bold uppercase text-center text-3xl text-white mt-20 ml-36 mt-20'> 
-                    Basilica de Nuestra Señora de Chinquinquira
-    </Link>
-      </div>
-  </div>
-  <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
-    <Link
-                    to="/recorridoiglesia"
-                    className='font-bold text-center uppercase text-4xl text-white ml-72'> 
-                   Iglesia Santa Lucia
-    </Link>
-      
-    </div>
-    </div>
-  <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96 ml-4 mb-4 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
-    <Link
-                    to="/recorridoteatro"
-                    className='font-bold uppercase text-4xl text-white ml-72'> 
-                    Teatro Baralt
-    </Link>
-      
-    </div>
-    </div>
-  <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 mr-4" >
-    <div className='inline-block align-middle text-amber-600 mt-48'>
-    <Link
-                    to="/recorridomuseo"
-                    className='font-bold uppercase text-4xl text-white ml-72'> 
-                    Museo Urdaneta
-    </Link>
-      
-      </div>
-      </div>
+  <iframe className='ml-72' src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} ></iframe> 
 </div>
  
 
@@ -106,7 +69,7 @@ const Recorridos = () => {
 
 
     
-  {/* <iframe src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} ></iframe> */}
+  
  {/* {datos[0].attributes.name}
       <ul>
         {datos.map(({ id }) => <li key={id}>{id}</li>)}
@@ -119,4 +82,4 @@ const Recorridos = () => {
   )
 }
 
-export default Recorridos
+export default RecorridoTeatro

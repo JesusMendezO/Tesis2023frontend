@@ -17,7 +17,12 @@ import Inicio from './paginas/Inicio'
 import SobreNosotros from './paginas/SobreNosotros'
 import Galeria from './paginas/Galerias'
 import Noticias from './paginas/Noticias'
+import NoticiasTeatro from './paginas/noticiateatro'
+import NoticiasTranvia from './paginas/noticiatranvia'
+import NoticiasCasas from './paginas/noticiacasas'
 import Recorrido from './paginas/Recorridos'
+import RecorridoBasilica from './paginas/recorridoBasilica'
+import RecorridoMuseo from './paginas/RecorridoMuseo'
 import GaleriaImg from './paginas/GaleriaImg'
 import {AuthProvider} from './context/AuthProvider'
 import {ProyectosProvider} from './context/ProyectosProvider'
@@ -46,8 +51,13 @@ function App() {
               <Route path="/SobreNosotros" element={<SobreNosotros />} />
               <Route path="/login" element={<Login/>} />
               <Route path="/noticias" element={<Noticias/>} />
+              <Route path="/noticiasteatro" element={<NoticiasTeatro/>} />
+              <Route path="/noticiastranvia" element={<NoticiasTranvia/>} />
+              <Route path="/noticiascasas" element={<NoticiasCasas/>} />
               <Route path="/galerias" element={<Galeria/>} />
               <Route path="/recorridos" element={<Recorrido/>} />
+              <Route path="/recorridobasilica" element={<RecorridoBasilica/>} />
+              <Route path="/recorridomuseo" element={<RecorridoMuseo/>} />
               <Route path="/galeriaimg" element={<GaleriaImg/>} />
               <Route path="/proyectos" element={<RutaProtegida />}>
               
