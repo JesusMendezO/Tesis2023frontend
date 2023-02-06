@@ -60,7 +60,7 @@ const RecorridoBasilica = () => {
        <div class="grid grid-cols-2  mt-4">
           
   
-  <iframe className='ml-72' src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} ></iframe> 
+  <iframe className='ml-52' src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} ></iframe> 
 </div>
  
 

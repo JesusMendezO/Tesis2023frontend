@@ -60,7 +60,7 @@ const RecorridoMuseo = () => {
        <div class="grid grid-cols-2  mt-4">
           
   
-  <iframe className='ml-72' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={500} ></iframe> 
+  <iframe className='ml-52 mr-4' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={500} ></iframe> 
 </div>
  
 

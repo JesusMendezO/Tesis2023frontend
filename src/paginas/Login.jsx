@@ -46,7 +46,7 @@ const Login = () => {
   return (
     <>
     
-        <h1 className="h-20 w-96 ml-24" ><img src="/assets/inicioS.jpg" />
+        <h1 className="h-20 w-96 ml-16" ><img src="/assets/inicioS.jpg" />
             
         </h1>
 

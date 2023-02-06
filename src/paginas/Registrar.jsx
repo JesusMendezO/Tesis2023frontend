@@ -64,7 +64,7 @@ const Registrar = () => {
 
   return (
     <>
-        <div><img class="object-contain h-18 w-80 ml-24 -mt-4"  src="/assets/registro.jpg" /></div>
+        <div><img class="object-contain h-18 w-80 ml-20 -mt-4"  src="/assets/registro.jpg" /></div>
 
         { msg && <Alerta alerta={alerta} /> }
     

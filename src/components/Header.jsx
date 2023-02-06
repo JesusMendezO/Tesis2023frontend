@@ -47,7 +47,7 @@ const Header = () => {
                 >Galeria</Link>
                  
                  <Link
-                    to="/proyectos"
+                    to="/contacto"
                     className='font-bold uppercase text-sky-600'
                 >Contacto</Link>
                 

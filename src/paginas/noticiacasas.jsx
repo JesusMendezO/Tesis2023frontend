@@ -18,7 +18,7 @@ const NoticiasCasas = () => {
        <div class="grid grid-cols-2  mt-20">
   
   <div class="w-96 ml-28 "><img class="w-35 h-28" src="/assets/Noticia.jpg" /></div>
-  <div class="bg-sky-600 h-2 mt-8 -ml-60 mr-20  inline-block align-middle"></div>
+  <div class="bg-sky-600 h-2 mt-8 -ml-48 mr-20  inline-block align-middle"></div>
 </div>
     {/* <div className="">
     <img class="h-96 w-full" src="/assets/Noticia.jpg" />

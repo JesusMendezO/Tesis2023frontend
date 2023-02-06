@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-
+import { Link } from 'react-router-dom'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -22,8 +22,8 @@ const Inicio = () => {
      <header id="main-header"><Header /></header>
      <hr className='height:100vh width:.5vw '></hr>   
                  
-        <h1 className="text-4xl font-black">Hola</h1>
-        <div className='mt-10 h9-6'>
+       
+        <div className='mt-20 h9-6'>
         <Swiper
         spaceBetween={0}
         centeredSlides={true}
@@ -42,7 +42,10 @@ const Inicio = () => {
 
       </Swiper>
         </div>
-        <div className='mt-10'> <img class="w-35 h-24" src="/assets/noticia.jpg" />
+        <div className='mt-10'> <Link
+                    to="/noticias"
+                    className=''
+                ><img class="w-35 h-24" src="/assets/noticia.jpg" /></Link> 
         <Swiper
         
         centeredSlides={true}
@@ -75,11 +78,14 @@ const Inicio = () => {
   </div>
 
 
-  <div class="..."><img class="w-96 h-80 mt-80 ml-32" src="/assets/titulogaleria.jpg" /></div>
+  <div class="..."><Link
+                    to="/galerias"
+                    className=''
+                ><img class="w-96 h-80 mt-80 ml-32" src="/assets/titulogaleria.jpg" /></Link> </div>
   
 </div>
 <div class="grid place-items-center"><img class="w-96 h-48 mt-10 " src="/assets/titulocosas.jpg" /></div>
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 mb-20">
   <div class="grid place-items-center mb-10 ">
   <iframe className='h-80 w-96' src='https://www.youtube.com/embed/H7YPPTReK6c'
         frameborder='0'
@@ -88,7 +94,7 @@ const Inicio = () => {
         title='video'
 />
   </div >
-  <div className='grid place-items-center mb-10'>
+  <div className='grid place-items-center mb-10 '>
   <iframe className='h-80 w-96' src='https://www.youtube.com/embed/H7YPPTReK6c'
         frameborder='0'
         allow='autoplay; encrypted-media'
@@ -97,7 +103,7 @@ const Inicio = () => {
 />
   </div>
 </div>
-        <footer> <Footer /></footer>
+        <footer className='mt-4'> <Footer /></footer>
     </>
   )
 }

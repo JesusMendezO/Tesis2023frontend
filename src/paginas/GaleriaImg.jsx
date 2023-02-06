@@ -19,17 +19,17 @@ const GaleriaImg = () => {
     
   <h1 class="text-xl text-left transform rotate-180 text-amber-500 mt-2">Galeria</h1>
   <div  class="grid grid-cols-3 gap-4 place-items-stretch mt-32 mb-32">
-  <button class=" bg-[url('/assets/basilica/2.jpg')] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
   
-</button>
-  <div  onClick={() => setShowModal(true)} className='transition duration-0 md:duration-150'><img class="w-full h-68 transition duration-150 ease-in-out " src="/assets/basilica/1.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/2.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/3.png" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/4.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/5.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/6.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/7.jpg" /></div>
-  <div><img class="w-full h-68" src="/assets/basilica/8.jpg" /></div>
+  <div   onClick={() => setShowModal(true)} className="bg-cover bg-[url('/assets/basilica/1.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "></div>
+  <div className="bg-cover bg-[url('/assets/basilica/2.jpg')]  h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/3.png')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/4.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/5.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/6.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/7.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+  <div className="bg-cover bg-[url('/assets/basilica/8.jpg')] h-96 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  "><img class=" object-fill w-52 h-68 object-contain "  /></div>
+
+  
   
 </div>
 </div>
