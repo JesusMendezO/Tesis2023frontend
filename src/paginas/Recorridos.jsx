@@ -79,7 +79,7 @@ const Recorridos = () => {
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('assets/teatro.jpg')] h-96 ml-4 mb-4 mr-4">
+  <div class="bg-cover bg-center bg-[url('assets/gale2.jpg')] h-96 ml-4 mb-4 mr-4">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridoteatro"
