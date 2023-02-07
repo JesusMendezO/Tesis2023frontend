@@ -28,7 +28,12 @@ const PrincilBasilica = () => {
 
 
     </div><div className='grid grid-cols-1 content-end'>
-        <div className='ml-72'><img class="w-3/4 h-48 ml-72" src="/assets/multimedia.jpg" /></div>
+        <div className='ml-72'>
+        <Link
+                    to="/galeriaimg"
+                    className='font-bold uppercase text-sky-600 '
+                ><img class="w-3/4 h-48 ml-72" src="/assets/multimedia.jpg" /></Link>
+            </div>
     
     </div>
     

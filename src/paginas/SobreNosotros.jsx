@@ -20,7 +20,7 @@ const SobreNosotros = () => {
   <div class="bg-sky-500 h-96">
 
       <div className='vertical-rl  ml-4'>
-  <h1 class="text-xl text-left transform rotate-180 text-amber-500 mt-2">Sobre nosotros</h1>
+  
   </div></div>
   <div class=""><img class="object-cover h-96 w-full"src="/assets/plazoletabasilicaversionfinal.jpg" /></div>
   </div>
