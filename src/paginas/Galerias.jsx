@@ -37,7 +37,7 @@ const Galeria = () => {
   <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 ml-4 mr-4">
     <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
-                    to="/inicio"
+                    to="/galeriasanta"
                     className='font-bold uppercase text-white ml-60'> 
                    Iglesia Santa Barbara
     </Link>
@@ -47,7 +47,7 @@ const Galeria = () => {
   <div class="bg-cover bg-center bg-[url('/assets/gale1.jpg')] h-96 ml-4 mt-4">
     <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
-                    to="/inicio"
+                    to="/galeriateatro"
                     className='font-bold uppercase text-white ml-72'> 
                     Teatro Baralt
     </Link>
@@ -57,7 +57,7 @@ const Galeria = () => {
   <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 ml-4 mr-4 mt-4" >
     <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
-                    to="/inicio"
+                    to="/galeriamuseo"
                     className='font-bold uppercase text-white ml-72'> 
                     Museo Urdaneta
     </Link>

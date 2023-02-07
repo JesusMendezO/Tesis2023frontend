@@ -24,6 +24,9 @@ import Recorrido from './paginas/Recorridos'
 import RecorridoBasilica from './paginas/recorridoBasilica'
 import RecorridoMuseo from './paginas/RecorridoMuseo'
 import GaleriaImg from './paginas/GaleriaImg'
+import GaleriaTeatro from './paginas/GaleriaTeatro'
+import GaleriaSanta from './paginas/GaleriaSanta'
+import GaleriaMuseo from './paginas/GaleriaMuseo'
 import Contacto from './paginas/Contacto'
 import {AuthProvider} from './context/AuthProvider'
 import {ProyectosProvider} from './context/ProyectosProvider'
@@ -60,6 +63,9 @@ function App() {
               <Route path="/recorridobasilica" element={<RecorridoBasilica/>} />
               <Route path="/recorridomuseo" element={<RecorridoMuseo/>} />
               <Route path="/galeriaimg" element={<GaleriaImg/>} />
+              <Route path="/galeriateatro" element={<GaleriaTeatro/>} />
+              <Route path="/galeriamuseo" element={<GaleriaMuseo/>} />
+              <Route path="/galeriasanta" element={<GaleriaSanta/>} />
               <Route path="/contacto" element={<Contacto/>} />
               <Route path="/proyectos" element={<RutaProtegida />}>
               
