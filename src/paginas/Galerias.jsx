@@ -44,7 +44,7 @@ const Galeria = () => {
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96 ml-4 mt-4">
+  <div class="bg-cover bg-center bg-[url('/assets/gale1.jpg')] h-96 ml-4 mt-4">
     <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/inicio"
