@@ -31,7 +31,7 @@ const Login = () => {
             setAlerta({})
             localStorage.setItem('token', data.token)
             setAuth(data)
-            navigate('/proyectos')
+            navigate('/inicio')
         } catch (error) {
             setAlerta({
                 msg: error.response.data.msg,

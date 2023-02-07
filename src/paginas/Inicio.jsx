@@ -24,7 +24,6 @@ const Inicio = () => {
                  
        
         <div className='mt-20 h9-6 '>
-          <div>hola</div>
         <Swiper
         spaceBetween={0}
         centeredSlides={true}
