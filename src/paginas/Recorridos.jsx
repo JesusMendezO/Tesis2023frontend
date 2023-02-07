@@ -60,40 +60,42 @@ const Recorridos = () => {
        <div class="grid grid-cols-2  mt-28">
   
   <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4 mb-4 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+    <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridobasilica"
                     className='font-bold uppercase text-center text-3xl text-white mt-20 ml-36 mt-20'> 
-                    Basilica de Nuestra Señora de Chinquinquira
+                    <p>Basilica de Nuestra Señora de Chinquinquira</p>
     </Link>
       </div>
   </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+    <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridoiglesia"
-                    className='font-bold text-center uppercase text-4xl text-white ml-72'> 
-                   Iglesia Santa Lucia
+                    className='font-bold text-center uppercase text-4xl text-white ml-72'>
+                      <p className='ml-32'>Iglesia Santa Barabara</p> 
+                   
     </Link>
       
     </div>
     </div>
   <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96 ml-4 mb-4 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+    <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridoteatro"
                     className='font-bold uppercase text-4xl text-white ml-72'> 
-                    Teatro Baralt
+                  <p className='ml-56'> Teatro Baralt</p>
     </Link>
       
     </div>
     </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 mr-4" >
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+    <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridomuseo"
                     className='font-bold uppercase text-4xl text-white ml-72'> 
-                    Museo Urdaneta
+                   
+                    <p className='ml-56'> Museo Urdaneta</p>
     </Link>
       
       </div>
