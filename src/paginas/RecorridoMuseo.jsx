@@ -56,11 +56,11 @@ const RecorridoMuseo = () => {
     <>
     <div className='bg-amber-600'>
        <div> <header id="main-header"><Header /></header></div>
-       <h1 className='text-sky-600 uppercase text-4xl text-center mt-20 '>Museo Urdaneta</h1>
+       <h1 className='text-white uppercase text-4xl text-center mt-20 '>Museo Urdaneta</h1>
        <div class="grid grid-cols-2  mt-4">
           
   
-  <iframe className='ml-52 mr-4' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={500} ></iframe> 
+  <iframe className='ml-52 mr-4' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={500} allowfullscreen="true"></iframe> 
 </div>
  
 

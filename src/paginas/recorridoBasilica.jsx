@@ -56,11 +56,11 @@ const RecorridoBasilica = () => {
     <>
     <div className='bg-amber-600'>
        <div> <header id="main-header"><Header /></header></div>
-       <h1 className='text-sky-600 uppercase text-4xl text-center mt-20 '>Basilica</h1>
+       <h1 className='text-white uppercase text-4xl text-center mt-20 '>Basilica</h1>
        <div class="grid grid-cols-2  mt-4">
           
   
-  <iframe className='ml-52' src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} ></iframe> 
+  <iframe className='ml-52' src="https://mellow-creponne-8ffd9c.netlify.app" width={1000} height={500} allowfullscreen="true"></iframe> 
 </div>
  
 

@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom'
 import useProyectos from '../hooks/useProyectos'
 import useAuth from '../hooks/useAuth'
 import Busqueda from './Busqueda'
-
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import { slide as Menu } from 'react-burger-menu'
+import Sidebar from './Sidebar';
 const Header = () => {
 
     const { handleBuscador, cerrarSesionProyectos } = useProyectos()
@@ -13,15 +16,18 @@ const Header = () => {
         cerrarSesionProyectos()
         localStorage.removeItem('token')
     }
+    
 
 
   return (
     <header className="fixed top-0 px-4 py-5 w-full bg-white border-b">
-        <div className="md:flex md:justify-between">
+       
+        <div className="md:flex md:justify-between" id='page-wrap'>
+        <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
             <h2 className="text-4xl text-sky-600 font-black text-center mb-5 md:mb-0">
             <div className="w-36 h-20 items-center -mt-10" ><img src="/assets/Logo.png" /></div>  
             </h2>
-
+          
             <div className='flex flex-col md:flex-row items-center gap-4'>
                 
                

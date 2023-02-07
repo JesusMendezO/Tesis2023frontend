@@ -27,6 +27,8 @@ import GaleriaImg from './paginas/GaleriaImg'
 import GaleriaTeatro from './paginas/GaleriaTeatro'
 import GaleriaSanta from './paginas/GaleriaSanta'
 import GaleriaMuseo from './paginas/GaleriaMuseo'
+import PrincilMuseo from './paginas/PrincipalMuseo'
+import PrincilBasilica from './paginas/PrincipalBasilica'
 import Contacto from './paginas/Contacto'
 import {AuthProvider} from './context/AuthProvider'
 import {ProyectosProvider} from './context/ProyectosProvider'
@@ -66,6 +68,8 @@ function App() {
               <Route path="/galeriateatro" element={<GaleriaTeatro/>} />
               <Route path="/galeriamuseo" element={<GaleriaMuseo/>} />
               <Route path="/galeriasanta" element={<GaleriaSanta/>} />
+              <Route path="/principalbasilica" element={<PrincilBasilica/>} />
+              <Route path="/principalmuseo" element={<PrincilMuseo/>} />
               <Route path="/contacto" element={<Contacto/>} />
               <Route path="/proyectos" element={<RutaProtegida />}>
               

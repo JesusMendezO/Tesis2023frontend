@@ -23,7 +23,8 @@ const Inicio = () => {
      <hr className='height:100vh width:.5vw '></hr>   
                  
        
-        <div className='mt-20 h9-6'>
+        <div className='mt-20 h9-6 '>
+          <div>hola</div>
         <Swiper
         spaceBetween={0}
         centeredSlides={true}
@@ -34,7 +35,7 @@ const Inicio = () => {
        
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-96"
+        className="mySwiper h-96 z-0"
       >
         <SwiperSlide><img class="w-full h-96" src="/assets/Banner1.jpg" /></SwiperSlide>
         <SwiperSlide><img class="w-full h-96" src="/assets/Banner2.jpg" /></SwiperSlide>
