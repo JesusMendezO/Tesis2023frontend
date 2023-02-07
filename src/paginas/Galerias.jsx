@@ -15,10 +15,9 @@ const Galeria = () => {
     <div>
        <div> <header id="main-header"><Header /></header></div>
 
-       <div class="grid grid-cols-2  mt-20">
+       <div class="grid  mt-20">
   
-  <div class="w-96 ml-28 "><img class="w-35 h-28" src="/assets/Galeria.jpg" /></div>
-  <div class="bg-sky-600 h-2 mt-8 -ml-56 mr-20  inline-block align-middle"></div>
+  <img class="w-full h-28 mt-4" src="/assets/galeria Franja.jpg" />
 </div>
     <div className="">
     <img class="h-96 w-full" src="/assets/galeriapor.jpg" />
@@ -26,40 +25,40 @@ const Galeria = () => {
 
       <div class="grid grid-cols-2  mt-20">
   
-  <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96">
-    <div className='inline-block align-middle text-amber-600'>
+  <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4">
+    <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/galeriaimg"
-                    className='font-bold uppercase text-sky-600'> 
+                    className='font-bold uppercase text-white ml-32'> 
                     Basilica de Nuestra Señora de Chinquinquira
     </Link>
       </div>
   </div>
-  <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96">
-    <div className='inline-block align-middle text-amber-600'>
+  <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 ml-4 mr-4">
+    <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/inicio"
-                    className='font-bold uppercase text-sky-600'> 
-                   Iglesia Santa Lucia
+                    className='font-bold uppercase text-white ml-60'> 
+                   Iglesia Santa Barbara
     </Link>
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96">
-    <div className='inline-block align-middle text-amber-600'>
+  <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96 ml-4 mt-4">
+    <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/inicio"
-                    className='font-bold uppercase text-sky-600'> 
+                    className='font-bold uppercase text-white ml-72'> 
                     Teatro Baralt
     </Link>
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40" >
-    <div className='inline-block align-middle text-amber-600'>
+  <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 ml-4 mr-4 mt-4" >
+    <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/inicio"
-                    className='font-bold uppercase text-sky-600'> 
+                    className='font-bold uppercase text-white ml-72'> 
                     Museo Urdaneta
     </Link>
       
