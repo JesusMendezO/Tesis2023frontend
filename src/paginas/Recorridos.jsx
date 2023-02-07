@@ -79,16 +79,15 @@ const Recorridos = () => {
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('/assets/teatro.jpg')] h-96 ml-4 mb-4 mr-4">
+    <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4 mb-4 mr-4">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
-                    to="/recorridoteatro"
-                    className='font-bold uppercase text-4xl text-white ml-72'> 
-                  <p className='ml-56'> Teatro Baralt</p>
+                    to="/recorridobasilica"
+                    className='font-bold uppercase text-center text-3xl text-white mt-20 ml-36 mt-20'> 
+                    <p>Basilica de Nuestra Señora de Chinquinquira</p>
     </Link>
-      
-    </div>
-    </div>
+      </div>
+  </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 mr-4" >
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
