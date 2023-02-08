@@ -59,8 +59,8 @@ const Inicio = () => {
         className="mySwiper -left-64 w-3/5 h-96 mt-10"
       >
         <SwiperSlide><img class="w-full h-68" src="/assets/noticia1.jpg" /></SwiperSlide>
-        <SwiperSlide><img class="w-full h-68" src="/assets/notici2.jpg" /></SwiperSlide>
-        <SwiperSlide><img class="w-full h-68" src="/assets/noticia3.jpg" /></SwiperSlide>
+        <SwiperSlide><img class="w-full h-68" src="/assets/noticia2.jpg" /></SwiperSlide>
+        <SwiperSlide><img class="w-full h-68" src="/assets/noticia3.jpeg" /></SwiperSlide>
 
       </Swiper>
         
