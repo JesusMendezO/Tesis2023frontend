@@ -20,19 +20,38 @@ const PrincilMuseo = () => {
   
         <div class="grid grid-cols-1  mt-20">
     
-    <div class="bg-cover bg-center bg-[url('/assets/Museo/3.jpg')] h-96 ">
-      <div className='inline-block align-middle uppercase text-4xl text-white mt-32 ml-60'>
-      <p className='ml-2'>Museo Urdaneta</p>
+    <div class="bg-cover bg-center bg-[url('/assets/Museo/1.jpg')] h-96 ">
+      <div className='inline-block align-center uppercase text-6xl text-white mt-32 ml-96'>
+      <div class="grid justify-items-center ">
+  <div className='ml-62'><p className=' ml-62 text-center'>Museo Urdaneta</p></div>
+
+</div>
+      
      
         </div>
+      
 
 
-    </div><div className='grid grid-cols-1 content-end'>
+    </div>
+    <div className='mt-10'>
+  <p className='text-white mr-10 ml-10'>El museo fue construido sobre las bases de la casa natal del General Rafael Urdaneta, localizado en el sector conocido como cerro El Zamuro. Inicialmente la casa fue demolida para dar paso a la construcción de una escuela que llevaba el nombre del general. En 1930 fue derribada para levantar un edificio en el que funcionaría un dispensario antituberculoso. Este centro asistencial prestó servicio hasta 1936, año en que el presidente del estado Zulia, para ese momento Luis Roncayolo, decretó la creación del Museo Histórico Rafael Urdaneta. En 1945, en el marco del primer centenario de la muerte del General Rafael Urdaneta, se ordenaron algunos trabajos de remodelación en la edificación, como la fachada principal que fue rediseñada a semejanza de la iglesia de la Magdalena de París, Francia, templo donde se velaron los restos del prócer. Esta fachada es la que se conserva hasta ahora.
+En la fachada prevalecen características arquitectónicas de estilo neoclásico; con columnas de orden toscano. El estilo neoclásico de la edificación queda de manifiesto en la utilización simétrica de ornamentos y vanos en la fachada, frontones triangulares en atrio y dinteles de puertas y ventanas. Para acceder a la galería se debe atravesar un ángulo escalonado que finaliza donde se erigen cuatro columna.
+La parte interna del museo se distribuye en salas de exhibición, con muestras de objetos que pertenecieron al general Rafael Urdaneta y su familia; salas administrativas y una sala en la sección posterior, en la planta alta, destinada a usos múltiples. Tiene un espacio natural abierto que vincula dos tipos de arquitectura, la tradicional y un área remodelada ubicada en el segundo nivel. Toda la edificación está dotada de iluminación y ventilación artificial. Actualmente se encuentra en buen estado de conservación.
+Esta edificación fue declarada Patrimonio Histórico Cultural del estado Zulia en 1996, mediante decreto Nº 199 de la Gobernación de estado Zulia.
+</p>
+</div>
+
+
+    
+    <div className='grid grid-cols-1 content-end mt-10'>
         <div className='ml-72'>
         <Link
-                    to="/galeriamuseo"
+                    to="/galeriaimg"
                     className='font-bold uppercase text-sky-600 '
-                ><img class="w-3/4 h-48 ml-72" src="/assets/multimedia.jpg" /></Link></div>
+                >
+                  <p className='text-8xl uppercase text-white font-["Rumble_Brave"]'> Galeria Multimedia</p><br></br> 
+                 </Link>
+            </div>
     
     </div>
     
@@ -54,13 +73,21 @@ const PrincilMuseo = () => {
 
 </div>
 </div>
-<img class="w-3/4 h-96 ml-64" src="/assets/recorridoV.jpg" />
+
 <div className='mt-40 mb-40 grid place-content-center'>
-    <div className=''>
+<p className='text-8xl uppercase text-white font-["Rumble_Brave"] mt-10'> Recorrido Multimedia<br></br>
+<p className='text-2xl uppercase text-white text-center font-["Rumble_Brave"]'>Viaja desde casa</p> </p>
+    <div className='mt-10'>
     <Link
                     to="/recorridomuseo"
                     className='font-bold uppercase text-sky-600 '
-                ><img class="w-48 h-48" src="/assets/aqui.jpg" /></Link>
+                    
+                ><div className=' grid place-content-center'>
+                    <button>
+                  <p  className='text-8xl uppercase text-white text-center font-["Rumble_Brave"]'> Aqui</p>
+                  </button>
+                </div>
+                </Link>
     </div>
  
   </div>

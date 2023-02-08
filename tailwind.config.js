@@ -3,7 +3,11 @@ module.exports = {
 
   content: ["index.html", "./src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Rumble Brave': ['Rumble Brave', 'sans-serif']
+      },
+    },
   },
   plugins: [plugin(function({ addUtilities, addComponents, e, prefix, config }) {
     const newUtilities = {
