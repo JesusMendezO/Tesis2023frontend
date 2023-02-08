@@ -26,43 +26,59 @@ const Galeria = () => {
       <div class="grid grid-cols-2  mt-20">
   
   <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+  <div class="grid justify-items-center">
+  <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/galeriaimg"
-                    className='font-bold uppercase text-white ml-32'> 
+                    className='font-bold uppercase text-2xl text-white'> 
                     Basilica de Nuestra Señora de Chinquinquira
     </Link>
       </div>
   </div>
+
+    
+    
+  </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 ml-4 mr-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+  <div class="grid justify-items-center">
+  <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/galeriasanta"
-                    className='font-bold uppercase text-white ml-60'> 
+                    className='font-bold uppercase  text-4xl text-white'> 
                    Iglesia Santa Barbara
     </Link>
       
     </div>
+  </div>
+    
     </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale1.jpg')] h-96 ml-4 mt-4">
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+  <div class="grid justify-items-center">
+  <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/galeriateatro"
-                    className='font-bold uppercase text-white ml-72'> 
-                    Teatro Baralt
+                    className='font-bold uppercase  text-4xl text-white'> 
+                   Teatro Baralt
+                   
     </Link>
       
     </div>
+  </div>
+    
     </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 ml-4 mr-4 mt-4" >
-    <div className='inline-block align-middle text-amber-600 mt-48'>
+
+  <div class="grid justify-items-center">
+  <div className='inline-block align-middle text-amber-600 mt-48'>
     <Link
                     to="/galeriamuseo"
-                    className='font-bold uppercase text-white ml-72'> 
+                    className='font-bold uppercase text-4xl text-white'> 
                     Museo Urdaneta
     </Link>
       
       </div>
+  </div>
+   
       </div>
 </div>
        

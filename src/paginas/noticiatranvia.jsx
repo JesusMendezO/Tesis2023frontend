@@ -16,8 +16,12 @@ const NoticiasTranvia = () => {
        <div> <header id="main-header"><Header /></header></div>
       
        <div class="grid   mt-20">
-  
-       <img class="w-full h-28" src="/assets/noticia franja.jpg" />
+       <Link
+                    to="/noticias"
+                    className='font-bold uppercase text-white ml-32'> 
+                 <img class="w-full h-28" src="/assets/noticia franja.jpg" />
+    </Link>
+       
 </div>
     {/* <div className="">
     <img class="h-96 w-full" src="/assets/Noticia.jpg" />
@@ -36,11 +40,7 @@ const NoticiasTranvia = () => {
                   Dia:04/02/2023 Hora: 10:00 am Salida: Vereda del lago  
          </p> 
          <p className='mt-5'>
-         Etiam maximus blandit purus ut lacinia. Vivamus condimentum pretium tortor vitae pellentesque. Aliquam tempus molestie pellentesque. Pellentesque felis nunc, efficitur ut malesuada id, dapibus id metus. Suspendisse suscipit pellentesque enim, tincidunt molestie orci commodo non. Cras purus lacus, faucibus nec nisi et, hendrerit euismod massa. Nam pretium, velit eu pretium consequat, neque mi condimentum nibh, vitae maximus ex neque et lectus. Sed rutrum tincidunt justo varius congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Sed hendrerit sapien id urna bibendum, non fringilla quam facilisis. Cras tincidunt odio dui, quis commodo augue luctus condimentum. Mauris ut nulla quis felis semper sodales. Phasellus commodo placerat metus, et suscipit augue elementum et. Phasellus eleifend odio in purus posuere porta.
-
-Nulla id quam at risus tincidunt porttitor id in lorem. Aliquam non pretium risus, nec consectetur magna. Suspendisse rhoncus ornare pulvinar. Praesent mauris libero, tempor vel interdum ac, ultricies vel lacus. Nulla facilisi. Nullam eget odio est. Phasellus porttitor tristique fermentum.
-
-Nullam iaculis urna id luctus molestie. Aliquam erat volutpat. Integer id lorem id ante aliquam dictum a non nibh. Curabitur fringilla ante vitae justo pretium, nec scelerisque nisi egestas. Duis eget mi odio. Sed sagittis metus eget ipsum luctus commodo. Nunc ac massa dignissim, tincidunt nisl nec, facilisis nulla. Ut ullamcorper erat ac quam rutrum, lobortis tristique est posuere. In aliquam mattis ipsum, sit amet aliquet nisl fringilla id.
+         Disfruta de un paseo por el casco central narrado por un guía y conoce todos los lugares históricos que conforman la ciudad. Tranvia de Maracaibo te invita a realizar un recorrido educativo para todo público que busca educar e informar sobre los lugares más importantes del casco histórico de la ciudad. El recorrido saldrá desde la estación del Tranvia ubicado en la vereda del Lago.
          </p>
          
          </div>
@@ -49,9 +49,9 @@ Nullam iaculis urna id luctus molestie. Aliquam erat volutpat. Integer id lorem 
 </div>
        
 
+<div className='mt-10 h-4'></div>
   
-  
-<footer> <Footer /></footer></div>
+<footer className='mt-32'> <Footer /></footer></div>
     
     </>
   )

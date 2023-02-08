@@ -60,44 +60,51 @@ const Recorridos = () => {
        <div class="grid grid-cols-2  mt-28">
   
   <div class="bg-cover bg-center bg-[url('/assets/gale3.jpg')] h-96 ml-4 mb-4 mr-4">
+  <div class="grid justify-items-center">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridobasilica"
-                    className='font-bold uppercase text-center text-3xl text-white mt-20 ml-36 mt-20'> 
+                    className='font-bold uppercase text-center text-3xl text-white '> 
                     <p>Basilica de Nuestra Señora de Chinquinquira</p>
     </Link>
       </div>
+      </div>
   </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale2.jpg')] h-96 mr-4">
+  <div class="grid justify-items-center">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridoiglesia"
-                    className='font-bold text-center uppercase text-4xl text-white ml-72'>
-                      <p className='ml-32'>Iglesia Santa Barabara</p> 
+                    className='font-bold text-center uppercase text-4xl text-white '>
+                      <p className=''>Iglesia Santa Barbara</p> 
                    
     </Link>
       
     </div>
     </div>
-  <div class="bg-cover bg-center bg-[url('assets/gale1.jpg')] h-96 ml-4 mb-4 mr-4">
+    </div>
+  <div class="bg-cover bg-center bg-[url('/assets/gale1.jpg')] h-96 ml-4 mb-4 mr-4">
+  <div class="grid justify-items-center">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridoteatro"
-                    className='font-bold uppercase text-4xl text-white ml-72'> 
-                  <p className='ml-56'> Teatro Baralt</p>
+                    className='font-bold uppercase text-4xl text-white '> 
+                  <p className=''> Teatro Baralt</p>
     </Link>
       
+    </div>
     </div>
     </div>
   <div class="bg-cover bg-center bg-[url('/assets/gale4.jpg')] h-96 mb-40 mr-4" >
+  <div class="grid justify-items-center">
     <div className='inline-block align-middle text-amber-600 mt-36'>
     <Link
                     to="/recorridomuseo"
-                    className='font-bold uppercase text-4xl text-white ml-72'> 
+                    className='font-bold uppercase text-4xl text-white '> 
                    
-                    <p className='ml-56'> Museo Urdaneta</p>
+                    <p className=''> Museo Urdaneta</p>
     </Link>
-      
+    </div>
       </div>
       </div>
 </div>
