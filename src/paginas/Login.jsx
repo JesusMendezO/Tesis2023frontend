@@ -45,15 +45,18 @@ const Login = () => {
 
   return (
     <>
-    
-        <h1 className="h-20 w-96 ml-16" ><img src="/assets/inicioS.jpg" />
+    <div class="grid justify-items-center">
+  <div><h1 className="h-20 w-96 " ><img src="/assets/inicioS.jpg" />
             
-        </h1>
+            </h1></div>
+
+</div>
+        
 
         {msg && <Alerta alerta={alerta } />}
     
         <form 
-            className="my-8 bg-white shadow p-2 border border-sky-500 "
+            className="my-8 bg-white shadow p-2 border border-sky-500  mb-10"
             onSubmit={handleSubmit}
         >
             <div className='items-center'>
@@ -86,6 +89,7 @@ const Login = () => {
                 className='block text-center my-5  uppercase text-sm ml-40 text-sky-600'
                 to="/olvide-password"
             >Recuperar Contraseña</Link>
+            
             <input 
                 type="submit"
                 value="Entrar"
