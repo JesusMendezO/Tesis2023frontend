@@ -54,14 +54,21 @@ const RecorridoMuseo = () => {
   return (
 
     <>
-    <div className='bg-amber-600'>
-       <div> <header id="main-header"><Header /></header></div>
-       <h1 className='text-white uppercase text-4xl text-center mt-20 '>Museo Urdaneta</h1>
-       <div class="grid grid-cols-2  mt-4">
+ <div> <header id="main-header"><Header /></header></div>
+       <div className='bg-amber-600'>
+         <div className='h-20'></div> 
+       <div className='h-full'>
+       <h1 className='text-white uppercase text-4xl text-center text-4xl font-["Rumble_Brave"] mt-4'>Museo Urdaneta</h1>
+       </div>
+       
+    
           
-  
-  <iframe className='ml-52 mr-4' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={500} allowfullscreen="true"></iframe> 
+       <div class="grid justify-items-center mt-20">
+  <div><iframe className='' src="https://fancy-pithivier-c02f74.netlify.app/" width={1000} height={400} allowfullscreen="true"></iframe> </div>
+
 </div>
+  
+
  
 
 
@@ -74,11 +81,14 @@ const RecorridoMuseo = () => {
       <ul>
         {datos.map(({ id }) => <li key={id}>{id}</li>)}
       </ul> */}
-  
- 
-<footer> <Footer /></footer></div>
+  <div className='h-96'></div>
+  </div>
+<footer> <Footer /></footer>
     
     </>
+
+
+  
   )
 }
 

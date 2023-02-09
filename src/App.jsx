@@ -23,6 +23,8 @@ import NoticiasCasas from './paginas/noticiacasas'
 import Recorrido from './paginas/Recorridos'
 import RecorridoBasilica from './paginas/recorridoBasilica'
 import RecorridoMuseo from './paginas/RecorridoMuseo'
+import RecorridoIglesia from './paginas/RecorridoIglesia'
+import RecorridoTeatro from './paginas/recorrdioTeatro'
 import GaleriaImg from './paginas/GaleriaImg'
 import GaleriaTeatro from './paginas/GaleriaTeatro'
 import GaleriaSanta from './paginas/GaleriaSanta'
@@ -64,6 +66,8 @@ function App() {
               <Route path="/recorridos" element={<Recorrido/>} />
               <Route path="/recorridobasilica" element={<RecorridoBasilica/>} />
               <Route path="/recorridomuseo" element={<RecorridoMuseo/>} />
+              <Route path="/recorridoiglesia" element={<RecorridoIglesia/>} />
+              <Route path="/recorridoteatro" element={<RecorridoTeatro/>} />
               <Route path="/galeriaimg" element={<GaleriaImg/>} />
               <Route path="/galeriateatro" element={<GaleriaTeatro/>} />
               <Route path="/galeriamuseo" element={<GaleriaMuseo/>} />

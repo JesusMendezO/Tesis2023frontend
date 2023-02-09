@@ -21,7 +21,9 @@ const SobreNosotros = () => {
 
       <div className='vertical-rl  ml-4'>
   
-  </div> <p className='text-white  mt-4 ml-2 mr-2'>Somos una guía virtual interactiva que busca incentivar al público a conocer la idiosincrasia e historia de la ciudad de Maracaibo de manera virtual e interactiva. En esta guía podrás encontrar toda la información referente al acervo histórico y arquitectónico de la ciudad de Maracaibo, su cultura y costumbres. Podrás explorar todo el contenido multimedia que tenemos a la mano e información inédita, enterarte de los eventos y noticias culturales y viajar desde donde estes a la ciudad del sol amada con tan solo un click.</p></div>
+  </div> 
+  <p className='uppercase text-amber-500 text-center  text-6xl font-["Rumble_Brave"] mt-4'> Sobre Nosotros</p>
+  <p className='text-white  mt-4 ml-2 mr-2 text-justify '>Somos una guía virtual interactiva que busca incentivar al público a conocer la idiosincrasia e historia de la ciudad de Maracaibo de manera virtual e interactiva. En esta guía podrás encontrar toda la información referente al acervo histórico y arquitectónico de la ciudad de Maracaibo, su cultura y costumbres. Podrás explorar todo el contenido multimedia que tenemos a la mano e información inédita, enterarte de los eventos y noticias culturales y viajar desde donde estes a la ciudad del sol amada con tan solo un click.</p></div>
   <div class=""><img class="object-cover h-96 w-full"src="/assets/plazoletabasilicaversionfinal.jpg" /></div>
   </div>
   
@@ -30,10 +32,15 @@ const SobreNosotros = () => {
   <div className='w-full h-36'>
       <div class="grid grid-cols-3">
           <div><img class="h-96 w-52 cover"src="/assets/plaza.jpg" /></div>
-          <div class="bg-amber-500 h-96 -ml-56 text-white"><p className='text-white  mt-4 ml-2 mr-10'>Nuestra misión es rescatar el interés del público y de las nuevas generaciones por la historia, 
+          
+          <div class="bg-amber-500 h-96 -ml-56 text-white">
+          <p className='uppercase text-white text-left  text-6xl font-["Rumble_Brave"] mt-4 ml-4'> Mision</p>
+          <p className='text-white text-center   mt-4 ml-2 mr-40'>Nuestra misión es rescatar el interés del público y de las nuevas generaciones por la historia, 
           la cultura y la arquitectura de la región marabina a través de las nuevas tecnologías que nos permiten 
           explorar más allá y promover la cultura y la idiosincrasia de Maracaibo.</p> </div>
-          <div class="bg-orange-600 h-96 w-auto -ml-32 text-white"> <p className='text-white  mt-4 ml-2 mr-2'>Ser la herramienta predilecta por todas las instituciones y lugares que conforman el acervo histórico y arquitectónico de Maracaibo, ayudando a su expansión y conocimiento, promoviendo la cultura y el turismo.</p></div>
+          <div class="bg-orange-600 h-96 w-auto -ml-32 text-white"> <p className='text-white  text-center  mt-20 ml-2 mr-2'>Ser la herramienta predilecta por todas las instituciones y lugares que conforman el acervo histórico y arquitectónico de Maracaibo, ayudando a su expansión y conocimiento, promoviendo la cultura y el turismo.</p>
+          <p className='uppercase text-white text-right  text-6xl font-["Rumble_Brave"] mt-20 mr-10'>Vision</p>
+          </div>
           </div>
       </div>
   <div className='w-full bg-sky-700 h-96 text-white '><div class="mb-10  "><img class="float-right h-92 w-56 mt-4 mr-8 mb-10"src="/assets/estatua.jpg" /></div >Maracaibo, la capital del estado Zulia al noroeste de Venezuela, celebra cada septiembre su fundación, desde 1529, específicamente el 8 de septiembre. Es una de las ciudades más populares del país, con un gentilicio único y destacado que hace imposible pasar por alto.
