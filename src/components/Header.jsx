@@ -20,7 +20,7 @@ const Header = () => {
 
 
   return (
-    <header className="fixed top-0 px-4 py-5 w-full bg-white border-b">
+    <header className="fixed  top-0 px-4 py-5 z-20  w-full bg-white border-b">
        
         <div className="md:flex md:justify-between" id='page-wrap'>
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
