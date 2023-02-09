@@ -77,12 +77,12 @@ const NoticiasTeatro = () => {
   </div>
   <div className=''> <h3 className='font-bold uppercase text-4xl text-amber-600'>Recorrido dentro del Teatro Baralt</h3> 
         <p className='text-sky-600'>
-          {restaurants}
+         
           Conoce las intalaciones de este emblematico lugar
          Dia:12/01/2023 Hora:10:00am  
          </p> 
          <p className='mt-5'>
-         Este jueves 23 de Enero el Teatro Baralt estará abriendo sus puertas al público brindando un recorrido completo por sus icónicas instalaciones con motivo educativo y turístico pues muchos ciudadanos aun no conocen esta edificación y su historia la cual es parte de la idiosincrasia Zuliana. Mediante sus redes sociales estarán brindando cualquier información y censando las personas interesadas en este recorrido.
+         {restaurants}
          </p>
          
          </div>
