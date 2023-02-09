@@ -36,19 +36,17 @@ Es una Basílica menor conformada por dos filas de cuatro columnas, un frontis e
 Por su antigüedad y valor patrimonial fue declarada Monumento Histórico Nacional según Gaceta Oficial Nº 26320 del 2 de agosto de 1960.</p>
 </div>
 
-
-    
-    <div className='grid grid-cols-1 content-end mt-10'>
-        <div className='ml-72'>
-        <Link
+<div class="grid justify-items-center mt-10">
+  <div><Link
                     to="/galeriaimg"
                     className='font-bold uppercase text-sky-600 '
                 >
                   <p className='text-8xl uppercase text-white font-["Rumble_Brave"]'> Galeria Multimedia</p><br></br> 
-                 </Link>
-            </div>
+                 </Link></div>
+
+</div>
     
-    </div>
+    
     
     <div>
     <div class="flex ml-20 mr-20">
