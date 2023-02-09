@@ -19,7 +19,7 @@ const Inicio = () => {
 
   return (
     <>
-     <header id="main-header mb-4"><Header /></header>
+     <header id="main-header"><Header /></header>
      <hr className='height:100vh width:.5vw '></hr>   
                  
        
