@@ -60,7 +60,7 @@ const Login = () => {
             onSubmit={handleSubmit}
         >
             <div className='items-center'>
-            <h1 className="text-sky-600 text-center font-black text-5xl capitalize">Hola!</h1>
+            <h1 className="text-sky-600 text-center font-black text-5xl capitalize">Paluz</h1>
            <h2 className="text-amber-500 text-center text-2xl" >Bienvenido de Nuevo</h2>
             </div>
             <div className="my-5 ">
